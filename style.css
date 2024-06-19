@@ -1,0 +1,131 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #1a79d8;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+header h2 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+}
+
+/* Main Content Styles */
+main .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main .row {
+    margin-bottom: 1.5rem;
+}
+
+main .border {
+    border: 1px solid #ddd;
+}
+
+main .rounded {
+    border-radius: 0.5rem;
+}
+
+main .p-4 {
+    padding: 1.5rem;
+}
+
+main .h-100 {
+    height: 100%;
+}
+
+main .bg-light {
+    background-color: #f8f9fa !important;
+}
+
+main .bg-dark {
+    background-color: #676f77 !important;
+}
+
+main .bg-dark-1 {
+    background-color: #1a79d8 !important;
+}
+
+
+main .text-white {
+    color: #ffffff !important;
+}
+
+main .text-center {
+    text-align: center;
+}
+
+main .mb-5 {
+    margin-bottom: 3rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+}
+
+main h4 {
+    font-size: 1.25rem;
+}
+
+main h5 {
+    font-size: 1.125rem;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+/* Image Styles */
+main .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+main .rounded {
+    border-radius: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
